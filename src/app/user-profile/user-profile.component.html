@@ -1,0 +1,130 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-xs-12 col-sm-9 mt-5">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="text-center">{{'dataLabel' | transloco}}</h2>
+          <h4 class="panel-title">{{'user.title' | transloco}}</h4>
+        </div>
+        <div class="panel-body">
+          <div class="profile__avatar">
+            <img src="assets/img/profile.png" alt="Profile Image">
+          </div>
+          <div class="profile__header">
+            <h4>Richard Roe <small>Administrator</small></h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nostrum odio cum repellat veniam eligendi
+              rem cumque magnam autem delectus qui.
+            </p>
+            <div class="d-flex justify-content-between">
+              <p>
+                <a href="#">bootdey.com</a>
+              </p>
+              <a routerLink="/">{{'user.backButton' | transloco }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- User info -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">{{'user.info.title' | transloco}}</h4>
+        </div>
+        <div class="panel-body">
+          <table class="table profile__table">
+            <tbody>
+              <tr>
+                <th><strong>{{'user.info.location.title' | transloco}}</strong></th>
+                <td>{{userData.location}}</td>
+              </tr>
+              <tr>
+                <th><strong>{{'user.info.cName' | transloco}}</strong></th>
+                <td>{{userData.companyName}}</td>
+              </tr>
+              <tr>
+                <th><strong>{{'user.info.position' | transloco}}</strong></th>
+                <td>{{userData.position}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Community -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">{{'user.community.title' | transloco}}</h4>
+        </div>
+        <div class="panel-body">
+          <table class="table profile__table">
+            <tbody>
+              <tr>
+                <th><strong>{{'user.community.comments' | transloco}}</strong></th>
+                <td>{{userData.comments}}</td>
+              </tr>
+              <tr>
+                <th><strong>{{'user.community.member' | transloco}}</strong></th>
+                <td>{{userData.member}}</td>
+              </tr>
+              <tr>
+                <th><strong>{{'user.community.lastLogin' | transloco}}</strong></th>
+                <td>{{userData.lastLogin}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-xs-12 col-sm-3">
+
+      <hr class="profile__contact-hr">
+      <!-- "titles":{
+        "workMobile":"Werknummer",
+        "mobile": "Mobiel nummer",
+        "email": "E-mailadres",
+        "workAddress":"Werkadres"
+      } -->
+      <!-- Contact info -->
+      <div class="profile__contact-info">
+        <div class="profile__contact-info-item">
+          <div class="profile__contact-info-icon">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="profile__contact-info-body">
+            <h5 class="profile__contact-info-heading">{{'user.titles.workMobile' | transloco}}</h5>
+            (000)987-65-43
+          </div>
+        </div>
+        <div class="profile__contact-info-item">
+          <div class="profile__contact-info-icon">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="profile__contact-info-body">
+            <h5 class="profile__contact-info-heading">{{'user.titles.mobile' | transloco}}r</h5>
+            (000)987-65-43
+          </div>
+        </div>
+        <div class="profile__contact-info-item">
+          <div class="profile__contact-info-icon">
+            <i class="fa fa-envelope-square"></i>
+          </div>
+          <div class="profile__contact-info-body">
+            <h5 class="profile__contact-info-heading">{{'user.titles.email' | transloco}}</h5>
+            <a href="mailto:admin@domain.com">admin@domain.com</a>
+          </div>
+        </div>
+        <div class="profile__contact-info-item">
+          <div class="profile__contact-info-icon">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <div class="profile__contact-info-body">
+            <h5 class="profile__contact-info-heading">{{'user.titles.workAddress' | transloco}}</h5>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
