@@ -1,0 +1,74 @@
+{
+  "header": {
+    "title": "Welkom"
+  },
+  "appRunning": "Internationaliseringsapp draait!",
+  "resources": {
+    "title": "Bronnen",
+    "helpLink": "Hier zijn enkele links om u op weg te helpen:",
+    "buttons": {
+      "learn": "Leer Angular",
+      "cli": "CLI-documentatie",
+      "material": "Hoekig materiaal",
+      "blog": "Angular Blog",
+      "devTools": "Hoekige Devtools"
+    }
+  },
+  "nextSteps": {
+    "title": "Volgende stappen",
+    "helpLink": "Wat wilt u nu doen met uw app?",
+    "buttons": {
+      "newComponent": "Nieuwe component",
+      "material": "Hoekig materiaal",
+      "pwa": "PWA-ondersteuning toevoegen",
+      "dependency": "Afhankelijkheid toevoegen",
+      "runTest": "Tests uitvoeren en bekijken",
+      "build": "Build for Production"
+    }
+  },
+  "footer": {
+    "love": "Love Angular?",
+    "repo": "Geef onze repo een ster.",
+    "star": "Ster"
+  },
+  "user": {
+    "title": "Gebruikersprofiel",
+    "open": "Gebruikersprofiel openen",
+    "backButton":"Terug naar huis",
+    "name": "Richard Roe Administrator",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nostrum odio cum repellat veniam eligendi rem cumque magnam autem delectus qui.",
+    "info": {
+      "title": "Gebruikersinfo",
+      "location": {
+        "title": "locatie"
+      },
+      "cName": "Bedrijfsnaam",
+      "position": "positie"
+    },
+    "community": {
+      "title": "Gemeenschap",
+      "comments": "opmerkingen",
+      "member": "Lid sinds",
+      "lastLogin": "Laatste login"
+    },
+    "titles":{
+      "workMobile":"Werknummer",
+      "mobile": "Mobiel nummer",
+      "email": "E-mailadres",
+      "workAddress":"Werkadres"
+    }
+  },
+  "table": {
+    "filterPlaceHolder": "Zoek op bestelling#, naam",
+    "open": "Tabel openen voor test-API",
+    "backButton": "Terug naar huis",
+    "row": {
+      "date": "Datum",
+      "status": "Status",
+      "customer": "Klant",
+      "purchased": "Gekocht",
+      "revenue": "Omzet"
+    }
+  },
+  "dataLabel": "Deze alle gegevens komen met filters van statische API"
+}

@@ -1,0 +1,74 @@
+{
+  "header": {
+    "title": "Welcome"
+  },
+  "appRunning": "Internationalization app is running!",
+  "resources": {
+    "title": "Resources",
+    "helpLink": "Here are some links to help you get started:",
+    "buttons": {
+      "learn": "Learn Angular",
+      "cli": "CLI Documentation",
+      "material": "Angular material",
+      "blog": "Angular Blog",
+      "devTools": "Angular Devtools"
+    }
+  },
+  "nextSteps": {
+    "title": "Next Steps",
+    "helpLink": "What do you want to do next with your app?",
+    "buttons": {
+      "newComponent": "New Component",
+      "material": "Angular Material",
+      "pwa": "Add PWA Support",
+      "dependency": "Add Dependency",
+      "runTest": "Run and Watch Tests",
+      "build": "Build for Production"
+    }
+  },
+  "footer": {
+    "love": "Love Angular?",
+    "repo": "Give our repo a star.",
+    "star": "Star"
+  },
+  "user": {
+    "title": "User profile",
+    "backButton": "Back to home",
+    "open": "Open user profile",
+    "name": "Richard Roe Administrator",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nostrum odio cum repellat veniam eligendi rem cumque magnam autem delectus qui.",
+    "info": {
+      "title": "User info",
+      "location": {
+        "title": "Location"
+      },
+      "cName": "Company name",
+      "position": "Position"
+    },
+    "community": {
+      "title": "Community",
+      "comments": "Comments",
+      "member": "Member since",
+      "lastLogin": "Last login"
+    },
+    "titles": {
+      "workMobile": "Work number",
+      "mobile": "Mobile number",
+      "email": "Email address",
+      "workAddress": "Work address"
+    }
+  },
+  "table": {
+    "filterPlaceHolder": "Search by order#, name",
+    "open": "Open Table for test API",
+    "backButton": "Back to home",
+    "row": {
+      "date": "Date",
+      "status": "Status",
+      "customer": "Customer",
+      "purchased": "Purchased",
+      "revenue": "Revenue"
+    }
+  },
+  "dataLabel": "This all data are coming with filters from static API"
+}

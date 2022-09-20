@@ -1,0 +1,74 @@
+{
+  "header": {
+    "title": "Bienvenidos"
+  },
+  "appRunning": "¡La aplicación de internacionalización se está ejecutando!",
+  "resources": {
+    "title": "Recursos",
+    "helpLink": "Aquí hay algunos enlaces para ayudarlo a comenzar:",
+    "buttons": {
+      "learn": "Aprender Angular",
+      "cli": "Documentación CLI",
+      "material": "Material angular",
+      "blog": "Blog angular",
+      "devTools": "Herramientas de desarrollo angulares"
+    }
+  },
+  "nextSteps": {
+    "title": "Pasos siguientes",
+    "helpLink": "Qué quieres hacer ahora con tu aplicación?",
+    "buttons": {
+      "newComponent": "Nuevo Componente",
+      "material": "Material angular",
+      "pwa": "Agregar compatibilidad con PWA",
+      "dependency": "Agregar dependencia",
+      "runTest": "Ejecutar y observar pruebas",
+      "build": "Construir para producción"
+    }
+  },
+  "footer": {
+    "love": "Amor angular?",
+    "repo": "Dale una estrella a nuestro repositorio.",
+    "star": "Estrella"
+  },
+  "user": {
+    "title": "Perfil de usuario",
+    "open": "Abrir perfil de usuario",
+    "backButton":"Volver a inicio",
+    "name": "Richard Roe Administrator",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nostrum odio cum repellat veniam eligendi rem cumque magnam autem delectus qui.",
+    "info": {
+      "title": "Información del usuario",
+      "location": {
+        "title": "Ubicación"
+      },
+      "cName": "Nombre de la empresa",
+      "position": "Posición"
+    },
+    "community": {
+      "title": "Comunidad",
+      "comments": "Comentarios",
+      "member": "Miembro desde",
+      "lastLogin": "Último inicio de sesión"
+    },
+    "titles":{
+      "workMobile":"Número de trabajo",
+      "mobile": "Número de móvil",
+      "email": "Dirección de correo electrónico",
+      "workAddress":"Dirección del trabajo"
+    }
+  },
+  "table": {
+    "filterPlaceHolder": "Buscar por número de pedido, nombre",
+    "open" : "Abrir tabla para API de prueba",
+    "backButton": "Volver a inicio",
+    "row": {
+      "date": "Fecha",
+      "status": "Estado",
+      "customer": "Cliente",
+      "purchased": "Comprado",
+      "revenue": "Ingresos"
+    }
+  },
+  "dataLabel": "Todos estos datos vienen con filtros de API estática"
+}
